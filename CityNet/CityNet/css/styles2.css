@@ -1,0 +1,216 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  font-size: 18px;
+}
+nav{
+  width: 100%;
+  height: 60px;
+  background-color: #BF443B;
+  margin: 0px;
+  position: fixed;
+  z-index: 100;
+}
+textarea {
+    resize: none;
+}
+.NavIcons{
+  position: absolute;
+  top: 12px;
+  right: auto;
+  margin-left: 32vw;
+}
+
+.Seperation{
+  width: 100%;
+  height: 2.5px;
+  top: 60px;
+  background-color: #ad4037;
+  position: fixed;
+  z-index: 100;
+}
+
+.IconPadding{
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.IconPadding:hover{
+  filter: opacity(70%);
+}
+
+.ProfileIcon{
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  top: 12px;
+  right: 220px;
+}
+
+.RedGraphic{
+  position: absolute;
+  right: 20%;
+  top: 75px;
+  width: 60%;
+  height: 92px;
+  background-color: #BF443B;
+  margin: 0px;
+}
+
+.RedGraphicHover{
+  position: absolute;
+  right: 20%;
+  top: 75px;
+  width: 60%;
+  height: 92px;
+  background-color: #BF443B;
+  margin: 0px;
+}
+
+.RedGraphicHover:hover{
+  filter: opacity(70%);
+}
+
+.RedGraphicHover:focus{
+  background-color: red;
+  filter: opacity(0%);
+}
+
+.ProfileIconLarge{
+  padding-top: 13px;
+  padding-left: 12px;
+}
+
+.PostContent{
+  color:white;
+  font-size:18px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.ContentButton{
+  color:white;
+  font-size:24px;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+
+
+
+.container {
+    width: 600px;
+    max-width: 700px;
+    margin: 10px;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(1, 1, 0.9, 0.3);
+    background: #BF443B;
+}
+
+.container,
+.inputBox,
+.clickButton {
+    font: 500 1rem 'Quicksand', sans-serif;
+}
+
+
+.title {
+    margin-bottom: 32px;
+    text-align: center;
+    color: white
+}
+
+
+.inputBoxGroup {
+    margin-bottom: 16px;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.inputBox {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+	transition: background 0.2s, border-color 0.2s;
+}
+
+.inputBox:focus {
+    background: #ffffff;
+}
+
+
+
+.clickButton {
+    width: 100%;
+    padding: 16px 32px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(38 32 32 / 22%);
+	opacity: 0.9;
+}
+
+.clickButton:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+	opacity: 0.9;
+}
+
+.textShape {
+    text-align: center;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+
+.feedback__button {
+width: 200px !important;
+margin:auto;
+display: block;
+color: #ffffff;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+}
+.feedback__button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+	opacity: 0.9;
+}
+
+
+.middlebox {
+background: rgb(38 32 32 / 22%);
+}
+
+.redButton {
+  cursor: pointer;
+  color: white;
+  background-color: #ac3d35;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 80px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  margin: 160px 40px;
+}
